@@ -4,7 +4,8 @@ const path = require('path');
 const os = require('os');
 const app = express();
 
-const buildPath = path.join(__dirname, '../PortfolioBuild');
+
+const buildPath = path.join(__dirname, '..');
 
 // Log all requests
 app.use((req, res, next) => {
