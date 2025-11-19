@@ -161,12 +161,7 @@ body {
     line-height: 1.4;
 }
 
-/* Phones */
-@media screen and (orientation: portrait) and (max-width: 768px) {
-    #rotate-warning { display: flex !important; }
-}
 
-/* Tablets */
-@media screen and (orientation: portrait) and (min-width: 769px) and (max-width: 1200px) {
+@media screen and (orientation: portrait) {
     #rotate-warning { display: flex !important; }
 }
