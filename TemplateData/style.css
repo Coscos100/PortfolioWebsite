@@ -161,7 +161,3 @@ body {
     line-height: 1.4;
 }
 
-
-@media screen and (orientation: portrait) and (max-width: 768px) {
-    #rotate-warning { display: flex !important; }
-}
